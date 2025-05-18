@@ -1,0 +1,58 @@
+# Directories to ignore
+/vendor/
+/node_modules/
+/.vscode/
+/.idea/
+/frontend/pdfs/*
+!/frontend/pdfs/agent/.gitkeep
+!/frontend/pdfs/admin/.gitkeep
+/logs/
+/temp/
+/tmp/
+
+# FPDF library - ignore contents but keep structure
+/lib/fpdf/*
+!/lib/fpdf/.gitkeep
+
+# Config files with sensitive information
+/backend/config/config.php
+.env
+*.env
+
+# Generated files
+*.log
+*.cache
+.DS_Store
+Thumbs.db
+
+# Composer files
+composer.phar
+
+# IDE and editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+*.code-workspace
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development environment
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+.sass-cache/

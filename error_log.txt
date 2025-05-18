@@ -1,0 +1,12 @@
+[16-May-2025 19:24:13 Asia/Manila] PHP Warning:  Undefined variable $requestMethod in C:\xampp1\htdocs\testPayRoll\index.php on line 58
+[16-May-2025 19:24:13 Asia/Manila] PHP Warning:  Undefined variable $requestUri in C:\xampp1\htdocs\testPayRoll\index.php on line 58
+[16-May-2025 19:24:13 Asia/Manila] PHP Fatal error:  Uncaught Error: Undefined constant "CSRF_TOKEN_NAME" in C:\xampp1\htdocs\testPayRoll\middleware\CSRFMiddleware.php:44
+Stack trace:
+#0 C:\xampp1\htdocs\testPayRoll\middleware\CSRFMiddleware.php(28): CSRFMiddleware::getCSRFToken()
+#1 C:\xampp1\htdocs\testPayRoll\index.php(121): CSRFMiddleware::verifyToken()
+#2 {main}
+  thrown in C:\xampp1\htdocs\testPayRoll\middleware\CSRFMiddleware.php on line 44
+[16-May-2025 19:33:07 Asia/Manila] API Request: POST auth/login
+[16-May-2025 19:37:20 Asia/Manila] API Request: POST auth/login
+[16-May-2025 19:38:20 Asia/Manila] API Request: POST auth/login
+[16-May-2025 19:39:15 Asia/Manila] API Request: POST auth/login
